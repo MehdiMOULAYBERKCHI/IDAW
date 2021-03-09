@@ -1,19 +1,83 @@
-<body>
+
+<!doctype html>
+<html>
 <head>
-    <title> Mon Site Professionnel</title>
+  <title> Mon Site Professionnel</title>
+  <meta charset="UTF-8">
+
+  <style>
+    .conteneur {
+      display : flex;
+      font-size : 20px;
+      background-color : #0AD;
+      border : 2px solid blue;
+      box-sizing : border-box;
+      margin : 10px 0px
+    }
+    .conteneur {
+      flex-flow : row wrap
+    }
+
+    .elmt{
+      flex : 0 0 10%;
+      background-color : #0DA;
+      padding : 10px 0px;
+      text-align : center;
+      border : 2px solid green;
+      box-sizing : border-box;
+      margin : 5px;
+    }
+
+
+  </style>
 
 </head>
-<h1>Benvenuto !</h1>
+
+<body>
+  <body style="background-color: rgb(166, 29, 201);">
+  <h1>Benvenuto !</h1>
+  <img src = "http://youngpreneurpodcast.fr/wp-content/uploads/2016/08/Construire-lentonnoir-de-conversion-parfait-en-6-e%CC%81tapes-hello-meme.jpg" height = "100px" width = "200px">
   <p>Ci dessous le menu du site </p> 
   <cite>Apres vous ! </cite>
-<nav class="menu">
-    <ul>
-    <li><a href="index.html">Accueil</a>
-    </li>
-    <li><a href="cv.html">CV</a></li>
-    <li><a href="projets.html">projets</a></li>
-    </ul>
-    </nav>
 
+  
+  <div class = "conteneur">
+
+    <div class = "elmt"> 
+      <nav class="menu">
+      <ul>
+        <li> 
+          <a href="index.html">Accueil  </a>  </li></ul>
+    </nav>
+    </div>
+
+
+    <div class = "elmt"> 
+      <nav class="menu">
+      <ul>
+        <li> 
+          <a href="cv.html">CV  </a>  </li></ul>
+    </nav>
+    </div>
+
+
+    <div class = "elmt"> 
+      <nav class="menu">
+      <ul>
+        <li> 
+          <a href="projets.html">projets   </a>   </li></ul>
+    </nav>
+    </div>
+  
+    
+  
+  </div>
+  
+  
+
+
+  
 </body>
+
+</html>
     
