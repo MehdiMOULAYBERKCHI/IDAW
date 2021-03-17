@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$_SESSION["login"] = "Monsieur";
+$_SESSION["login"] = $_GET["login"];
 
 ?>
 
@@ -12,7 +12,7 @@ $_SESSION["login"] = "Monsieur";
 
 <body>
     
-<form id="login_form" action="connected.php" method="POST">
+<form id="login_form" action="connected.php" method="GET">
     <table>
         <tr>
             <th>Login :</th>
